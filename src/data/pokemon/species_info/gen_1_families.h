@@ -10873,8 +10873,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         FOOTPRINT(Koffing)
         .levelUpLearnset = sKoffingLevelUpLearnset,
         .teachableLearnset = sKoffingTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_WEEZING},
-                                {EVO_LEVEL, 35, SPECIES_WEEZING_GALARIAN}),
+        .evolutions = EVOLUTION({EVO_LEVEL_SILCOON, 35, SPECIES_WEEZING},
+                                {EVO_LEVEL_CASCOON, 35, SPECIES_WEEZING_GALARIAN}),
     },
 
     [SPECIES_WEEZING] =

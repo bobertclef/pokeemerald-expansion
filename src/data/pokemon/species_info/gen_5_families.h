@@ -1799,7 +1799,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         FOOTPRINT(Boldore)
         .levelUpLearnset = sBoldoreLevelUpLearnset,
         .teachableLearnset = sBoldoreTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_GIGALITH},
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_GIGALITH}
                                 ),
     },
 
@@ -2303,7 +2303,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         FOOTPRINT(Gurdurr)
         .levelUpLearnset = sGurdurrLevelUpLearnset,
         .teachableLearnset = sGurdurrTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 43, SPECIES_CONKELDURR},
+        .evolutions = EVOLUTION({EVO_LEVEL, 43, SPECIES_CONKELDURR}
                                 ),
     },
 
@@ -3293,7 +3293,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
-        .abilities = { ABILITY_RECKLESS, ABILITY_MOLD_BREAKER, ABILITY_ADAPTIBILITY },
+        .abilities = { ABILITY_RECKLESS, ABILITY_MOLD_BREAKER, ABILITY_ADAPTABILITY },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Basculin"),
         .cryId = CRY_BASCULIN,
@@ -3439,8 +3439,8 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sBasculinWhiteStripedLevelUpLearnset,
         .teachableLearnset = sBasculinWhiteStripedTeachableLearnset,
         .formSpeciesIdTable = sBasculinFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_ABANDONED_SHIP, SPECIES_BASCULEGION_MALE},
-                                {EVO_MAPSEC_, MAPSEC_ABANDONED_SHIP, SPECIES_BASCULEGION_FEMALE}),
+        .evolutions = EVOLUTION({EVO_LEVEL_MALE, 60, SPECIES_BASCULEGION_MALE},
+                                {EVO_LEVEL_FEMALE, 60, SPECIES_BASCULEGION_FEMALE}),
     },
 
     [SPECIES_BASCULEGION_MALE] =
@@ -5115,7 +5115,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_ADAPTIBILITY, ABILITY_NONE, ABILITY_ILLUSION },
+        .abilities = { ABILITY_ADAPTABILITY, ABILITY_NONE, ABILITY_ILLUSION },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Zorua"),
         .cryId = CRY_ZORUA,
@@ -5170,7 +5170,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_ADAPTIBILITY, ABILITY_NONE, ABILITY_ILLUSION },
+        .abilities = { ABILITY_ADAPTABILITY, ABILITY_NONE, ABILITY_ILLUSION },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Zoroark"),
         .cryId = CRY_ZOROARK,
@@ -6634,7 +6634,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_CURSED_BODU, ABILITY_CURSED_BODY, ABILITY_WATER_ABSORB },
+        .abilities = { ABILITY_CURSED_BODY, ABILITY_CURSED_BODY, ABILITY_WATER_ABSORB },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Frillish"),
         .cryId = CRY_FRILLISH,

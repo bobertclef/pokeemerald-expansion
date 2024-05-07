@@ -2378,7 +2378,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         FOOTPRINT(Spritzee)
         .levelUpLearnset = sSpritzeeLevelUpLearnset,
         .teachableLearnset = sSpritzeeTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_AROMATISSE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_AROMATISSE})
     },
 
     [SPECIES_AROMATISSE] =
@@ -2485,7 +2485,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         FOOTPRINT(Swirlix)
         .levelUpLearnset = sSwirlixLevelUpLearnset,
         .teachableLearnset = sSwirlixTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SLURPUFF},
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SLURPUFF}
                                 ),
     },
 

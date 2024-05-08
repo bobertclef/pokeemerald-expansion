@@ -591,7 +591,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_ADAPTIBILITY, ABILITY_ADAPTABILITY, ABILITY_FRISK },
+        .abilities = { ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_FRISK },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Sentret"),
         .cryId = CRY_SENTRET,
@@ -644,7 +644,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_adaptibility, ABILITY_adaptibility, ABILITY_FRISK },
+        .abilities = { ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_FRISK },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Furret"),
         .cryId = CRY_FURRET,
@@ -1095,7 +1095,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
-        .abilities = { ABILITY_VOLT_ABSORB, ABILITY_volt_absorb, ABILITY_WATER_ABSORB },
+        .abilities = { ABILITY_VOLT_ABSORB, ABILITY_VOLT_ABSORB, ABILITY_WATER_ABSORB },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Lanturn"),
         .cryId = CRY_LANTURN,
@@ -1792,7 +1792,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FAIRY),
-        .abilities = { ABILITY_THICK_FAT, ABILITY_thick_fat, ABILITY_SAP_SIPPER },
+        .abilities = { ABILITY_THICK_FAT, ABILITY_THICK_FAT, ABILITY_SAP_SIPPER },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Azumarill"),
         .cryId = CRY_AZUMARILL,
@@ -3811,7 +3811,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
-        .abilities = { ABILITY_intimidate, ABILITY_SWIFT_SWIM, ABILITY_INTIMIDATE },
+        .abilities = { ABILITY_INTIMIDATE, ABILITY_SWIFT_SWIM, ABILITY_INTIMIDATE },
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("Qwilfish"),
         .cryId = CRY_QWILFISH,
@@ -4136,7 +4136,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sSneaselLevelUpLearnset,
         .teachableLearnset = sSneaselTeachableLearnset,
         .formSpeciesIdTable = sSneaselFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_RAZOR_CLAW, SPECIES_WEAVILE},
+        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_WEAVILE}
                                 ),
     },
 
@@ -4152,8 +4152,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .types = MON_TYPES(TYPE_DARK, TYPE_ICE),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 179 : 199,
-        .evYield_Attack = 1,
-        .evYield_Speed = 1,
+        .evYield_Attack = 0,
+        .evYield_Speed = 0,
         .itemRare = ITEM_none,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
@@ -4259,7 +4259,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sSneaselHisuianLevelUpLearnset,
         .teachableLearnset = sSneaselHisuianTeachableLearnset,
         .formSpeciesIdTable = sSneaselFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_RAZOR_CLAW, SPECIES_SNEASLER},
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_RAZOR_CLAW, SPECIES_SNEASLER}
                                 ),
     },
 
@@ -5222,7 +5222,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         FOOTPRINT(Mantyke)
         .levelUpLearnset = sMantykeLevelUpLearnset,
         .teachableLearnset = sMantykeTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_level, 32, SPECIES_MANTINE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_MANTINE})
     },
 #endif //P_GEN_4_CROSS_EVOS
 
@@ -6227,7 +6227,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = 35,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_battle_armor, ABILITY_SAND_STREAM, ABILITY_SAND_STREAM },
+        .abilities = { ABILITY_BATTLE_ARMOR, ABILITY_BATTLE_ARMOR, ABILITY_SAND_STREAM },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Tyranitar"),
         .cryId = CRY_TYRANITAR_MEGA,

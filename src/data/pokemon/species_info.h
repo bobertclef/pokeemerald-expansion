@@ -151,4 +151,4 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .allPerfectIVs = TRUE,
     },
     */
-};
+}

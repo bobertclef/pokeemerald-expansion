@@ -3375,7 +3375,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         FOOTPRINT(Riolu)
         .levelUpLearnset = sRioluLevelUpLearnset,
         .teachableLearnset = sRioluTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_level, 34, SPECIES_LUCARIO})
+        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_LUCARIO})
     },
 
     [SPECIES_LUCARIO] =
@@ -3791,7 +3791,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .catchRate = 75,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 172 : 181,
         .evYield_Attack = 0,
-        .itemRare = ITEM_NONE
+        .itemRare = ITEM_NONE,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,

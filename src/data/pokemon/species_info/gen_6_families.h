@@ -3855,7 +3855,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_TREVENANT})
                                 
 
-    [SPECIES_TREVENANT] =
+    [SPECIES_TREVENANT] = 
     {
         .baseHP        = 85,
         .baseAttack    = 110,

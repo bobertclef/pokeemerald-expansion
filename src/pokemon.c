@@ -458,7 +458,7 @@ const s8 gNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
 // gPPUpGetMask - A mask to get the number of PP Ups applied to that move slot
 // gPPUpClearMask - A mask to clear the number of PP Ups applied to that move slot
 // gPPUpAddValues - A value to add to the PP Bonuses byte to apply 1 PP Up to that move slot
-const u8 gPPUpGetMask[MAX_MON_MOVES]   = {PP_UP_SHIFTS(3)};
+const u8 gPPUpGetMask[MAX_MON_MOVES] = {PP_UP_SHIFTS(3)};
 const u8 gPPUpClearMask[MAX_MON_MOVES] = {PP_UP_SHIFTS_INV(3)};
 const u8 gPPUpAddValues[MAX_MON_MOVES] = {PP_UP_SHIFTS(1)};
 

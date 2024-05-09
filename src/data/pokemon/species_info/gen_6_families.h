@@ -3856,7 +3856,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
                                 
 
     [SPECIES_TREVENANT] =
-    {
+    
         .baseHP        = 85,
         .baseAttack    = 110,
         .baseDefense   = 76,

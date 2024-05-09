@@ -3852,12 +3852,12 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         FOOTPRINT(Phantump)
         .levelUpLearnset = sPhantumpLevelUpLearnset,
         .teachableLearnset = sPhantumpTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_TREVENANT})
+        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_TREVENANT}),
                                 
 
     [SPECIES_TREVENANT] =
-    
-       { .baseHP        = 85,
+    { 
+        .baseHP        = 85,
         .baseAttack    = 110,
         .baseDefense   = 76,
         .baseSpeed     = 56,

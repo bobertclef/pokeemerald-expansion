@@ -3961,7 +3961,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sPumpkabooLevelUpLearnset,
         .teachableLearnset = sPumpkabooTeachableLearnset,
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 66, SPECIES_GOURGEIST_AVERAGE},
+        .evolutions = EVOLUTION({EVO_LEVEL, 66, SPECIES_GOURGEIST_AVERAGE}
                                 ),
     },
 
@@ -4015,7 +4015,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sPumpkabooLevelUpLearnset,
         .teachableLearnset = sPumpkabooTeachableLearnset,
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_GOURGEIST_SMALL},
+        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_GOURGEIST_SMALL}
                                 ),
     },
 
@@ -4069,7 +4069,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sPumpkabooLevelUpLearnset,
         .teachableLearnset = sPumpkabooTeachableLearnset,
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_GOURGEIST_LARGE},
+        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_GOURGEIST_LARGE}
                                 ),
     },
 
@@ -4125,7 +4125,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sPumpkabooLevelUpLearnset,
         .teachableLearnset = sPumpkabooTeachableLearnset,
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_GOURGEIST_SUPER},
+        .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_GOURGEIST_SUPER}
                                ),
     },
 

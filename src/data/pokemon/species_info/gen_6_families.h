@@ -3853,7 +3853,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sPhantumpTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 55, SPECIES_TREVENANT}),
     },
-
+    
     [SPECIES_TREVENANT] =
     { 
         .baseHP        = 85,
@@ -3982,7 +3982,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_INSOMNIA, ABILITY_FRISK, ABILITY_ILLUMINATE },,
+        .abilities = { ABILITY_INSOMNIA, ABILITY_FRISK, ABILITY_ILLUMINATE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Pumpkaboo"),
         .cryId = CRY_PUMPKABOO,
@@ -4092,7 +4092,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_INSOMNIA, ABILITY_FRISK, ABILITY_ILLUMINATE },,
+        .abilities = { ABILITY_INSOMNIA, ABILITY_FRISK, ABILITY_ILLUMINATE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Pumpkaboo"),
         .cryId = CRY_PUMPKABOO_SUPER,
@@ -4199,7 +4199,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_INSOMNIA, ABILITY_FRISK, ABILITY_ILLUMINATE },,
+        .abilities = { ABILITY_INSOMNIA, ABILITY_FRISK, ABILITY_ILLUMINATE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Gourgeist"),
         .cryId = CRY_GOURGEIST,

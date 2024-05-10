@@ -3016,7 +3016,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_PUNK_ROCK, ABILITY_TECHNICIAN, ABILITY_minus },
+        .abilities = { ABILITY_PUNK_ROCK, ABILITY_TECHNICIAN, ABILITY_MINUS },
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Toxtricity"),
         .cryId = CRY_TOXTRICITY_LOW_KEY,
@@ -3176,7 +3176,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
-        .abilities = { ABILITY_FLAME_BODY, ABILITY_WHITE_SMOKE, ABILITY_FLASH_BODY },
+        .abilities = { ABILITY_FLAME_BODY, ABILITY_WHITE_SMOKE, ABILITY_FLASH_FIRE },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Centiskorc"),
         .cryId = CRY_CENTISKORCH,
@@ -5946,7 +5946,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .isLegendary = TRUE,
         .levelUpLearnset = sKubfuLevelUpLearnset,
         .teachableLearnset = sKubfuTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_SILCOON, 50, SPECIES_URSHIFU_SINGLE_STRIKE_STYLE},
+        .evolutions = EVOLUTION({EVO_LEVEL_SILCOON, 50, SPECIES_URSHIFU_SINGLE_STRIKE_STYLE}
                                 
                                 {EVO_LEVEL_CASCOON, 50 , SPECIES_URSHIFU_RAPID_STRIKE_STYLE},
                                 ),

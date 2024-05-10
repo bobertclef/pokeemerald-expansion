@@ -967,7 +967,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         FOOTPRINT(Charjabug)
         .levelUpLearnset = sCharjabugLevelUpLearnset,
         .teachableLearnset = sCharjabugTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_VIKAVOLT},
+        .evolutions = EVOLUTION({EVO_LEVEL 45, SPECIES_VIKAVOLT}
                                 ),
     },
 
@@ -1615,8 +1615,8 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .teachableLearnset = sRockruffTeachableLearnset,
         .formSpeciesIdTable = sRockruffFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_SUN_STONE, SPECIES_LYCANROC_MIDDAY},
-                                {EVO_ITEM, ITEM_MOON_STONE, SPECIES_LYCANROC_MIDNIGHT}),
-                                {EVO_ITEM, ITEM_DUSK_STONE, SPECIES_LYCANROC_DUSK},
+                                {EVO_ITEM, ITEM_MOON_STONE, SPECIES_LYCANROC_MIDNIGHT},
+                                {EVO_ITEM, ITEM_DUSK_STONE, SPECIES_LYCANROC_DUSK}),
     },
 
     [SPECIES_ROCKRUFF_OWN_TEMPO] =

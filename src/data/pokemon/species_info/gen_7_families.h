@@ -967,7 +967,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         FOOTPRINT(Charjabug)
         .levelUpLearnset = sCharjabugLevelUpLearnset,
         .teachableLearnset = sCharjabugTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL 45, SPECIES_VIKAVOLT}
+        .evolutions = EVOLUTION({EVO_LEVEL, 45, SPECIES_VIKAVOLT}
                                 ),
     },
 

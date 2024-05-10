@@ -5946,7 +5946,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .isLegendary = TRUE,
         .levelUpLearnset = sKubfuLevelUpLearnset,
         .teachableLearnset = sKubfuTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_SILCOON, 50, SPECIES_URSHIFU_SINGLE_STRIKE_STYLE}
+        .evolutions = EVOLUTION({EVO_LEVEL_SILCOON, 50, SPECIES_URSHIFU_SINGLE_STRIKE_STYLE},
                                 
                                 {EVO_LEVEL_CASCOON, 50 , SPECIES_URSHIFU_RAPID_STRIKE_STYLE}
                                 ),

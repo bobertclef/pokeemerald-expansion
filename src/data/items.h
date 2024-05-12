@@ -12616,12 +12616,24 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Pokéshi Doll"),
         .price = 2000,
-        .description = COMPOUND_STRING(
-            "A wooden toy carved\n"
-            "in the image of a\n"
-            "Pokémon. Can be sold."),
+        .description = sStunkySprayDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
+
+      [ITEM_STUNKY_SPRAY] =
++    {
++        .name = _("STUNKY SPRAY"),
++        .price = 0,
++        .description = COMPOUND_STRONG(
+            "Repels all wild\n"
++           "Pokémon for any\n"
++            "number of steps."),
++        .importance = 1,
++        .pocket = POCKET_KEY_ITEMS,
++        .type = ITEM_USE_BAG_MENU,
++        .fieldUseFunc = ItemUseOutOfBattle_StunkySpray,
++    },
++};
 };

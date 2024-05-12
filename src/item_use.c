@@ -709,31 +709,31 @@ void ItemUseOutOfBattle_CoinCase(u8 taskId)
 }
 
 void ItemUseOutOfBattle_StunkySpray(u8 taskId)
-+{
-+    bool8 infiniteRepelOn = FlagGet(OW_FLAG_NO_ENCOUNTER);
-+    if (!infiniteRepelOn)
-+    {
-+        FlagToggle(OW_FLAG_NO_ENCOUNTER);
-+        PlaySE(SE_REPEL);
-+        if(gTasks[taskId].tUsingRegisteredKeyItem){
-+            DisplayItemMessageOnField(taskId, gText_StunkySprayOn, Task_CloseCantUseKeyItemMessage);
-+        }
-+        else{
-+            DisplayItemMessage(taskId, 1, gText_StunkySprayOn, CloseItemMessage);
-+        }
-+    }
-+    else
-+    {
-+        FlagToggle(OW_FLAG_NO_ENCOUNTER);
-+        PlaySE(SE_PC_OFF);
-+        if (gTasks[taskId].tUsingRegisteredKeyItem){
-+            DisplayItemMessageOnField(taskId, gText_StunkySprayOff, Task_CloseCantUseKeyItemMessage);
-+        }
-+        else{
-+            DisplayItemMessage(taskId, 1, gText_StunkySprayOn, CloseItemMessage);
-+        }
-+    }
-+}
+{
+    bool8 StunkySprayOn = FlagGet(OW_FLAG_NO_ENCOUNTER);
+    if (!StunkySprayOn)
+    {
+        FlagToggle(OW_FLAG_NO_ENCOUNTER);
+        PlaySE(SE_REPEL);
+        if(gTasks[taskId].tUsingRegisteredKeyItem){
+            DisplayItemMessageOnField(taskId, gText_StunkySprayOn, Task_CloseCantUseKeyItemMessage);
+        }
+        else{
+            DisplayItemMessage(taskId, 1, gText_StunkySprayOn, CloseItemMessage);
+        }
+    }
+    else
+    {
+        FlagToggle(OW_FLAG_NO_ENCOUNTER);
+        PlaySE(SE_PC_OFF);
+        if (gTasks[taskId].tUsingRegisteredKeyItem){
+            DisplayItemMessageOnField(taskId, gText_StunkySprayOff, Task_CloseCantUseKeyItemMessage);
+        }
+        else{
+            DisplayItemMessage(taskId, 1, gText_StunkySprayOn, CloseItemMessage);
+        }
+    }
+}
 
 void ItemUseOutOfBattle_PowderJar(u8 taskId)
 {

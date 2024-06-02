@@ -22,11 +22,6 @@
       "map": "MAP_ROUTE117",
       "offset": 0,
       "direction": "right"
-    },
-    {
-      "map": "MAP_INSIDE_OF_TRUCK",
-      "offset": 15,
-      "direction": "left"
     }
   ],
   "object_events": [

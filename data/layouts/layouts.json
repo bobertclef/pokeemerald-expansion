@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/RusturfB1F/border.bin",
       "blockdata_filepath": "data/layouts/RusturfB1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANT_LAKE",
+      "name": "VerdantLake_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/VerdantLake/border.bin",
+      "blockdata_filepath": "data/layouts/VerdantLake/map.bin"
     }
   ]
 }

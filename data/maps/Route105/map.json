@@ -98,7 +98,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 17,
-      "y": 48,
+      "y": 49,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_DOWN_AND_UP",
       "movement_range_x": 0,
